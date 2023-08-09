@@ -1,0 +1,30 @@
+
+/*Criado / Alterado por Antonio - Inicio*/
+.imagemPerfil {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.imagemRanking{
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;;
+}
+#curso-em-andamento, #cursos-adquiridos, #loja-de-cursos{
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .blocoVersaoParaPC{
+        display: none;
+    }    
+}
+
+@media (min-width: 769px){
+    .blocoVersaoParaCelular{
+        display: none;
+    }
+	.area_img_cursos_online img {
+		min-height: 180px;
+	}
+}
+/*Criado / Alterado por Antonio - Fim*/

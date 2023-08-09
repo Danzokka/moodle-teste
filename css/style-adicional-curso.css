@@ -1,0 +1,67 @@
+/*Criado / Alterado por Antonio - Inicio*/
+@media (max-width: 768px){
+    .mostrarPc{
+        display:none;
+    }
+    .area_inscricao_int {
+        display: inline !important;
+        text-align: center !important;
+    }
+    .likecomputador{
+        display:none;
+    }
+    .mostrarCelular{
+        border-radius: 7px !important;
+    }
+    .area_inscricao {
+        padding: 24px 25px !important;
+        margin-top: 15px;
+    }
+    .area_compartilhar {
+        gap: 37px !important;
+    }
+}
+
+@media (min-width: 769px){
+    .img_matricula img{
+        min-width: 520px;
+    }
+    .mostrarCelular{
+        display:none;
+    } 
+    .dado_periodo_cel{
+        font-size: 14px;
+    }
+    .likecelualr{
+        display:none;
+    }    
+    .mostrarPc{
+        height: 137px !important;
+    }
+    .area_inscricao {
+        max-width: 100% !important;
+        border-radius: 20px !important;
+    }
+    .likesCurtir{
+        min-width: 154px;
+    }
+    .img_relacionados img{
+        min-height: 196.66px;
+    }
+}
+.area_texts_conteudo {
+    height: 100%;
+}
+.area_texts_conteudo {
+    gap: 0px !important;
+}
+.area_texts_conteudo p{
+    margin-block-end: 0em;
+}
+.area_like{
+    cursor: pointer;
+}
+.area_text_container_1 {
+    max-width: 568px !important;
+}
+/*Criado / Alterado por Antonio - Fim*/

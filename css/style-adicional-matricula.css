@@ -1,0 +1,28 @@
+/*Criado / Alterado por Antonio - Inicio*/
+@media (min-width: 769px){
+	.area_inscricao {
+		height: 100% !important;
+	}
+	.area_nome_curso_cadastro {
+		align-items: normal !important;
+	}
+	.form select {
+		width: 100%;
+		height: 36px;
+		outline: none;
+		background-color: #FFFFFF;
+		border: 1px solid rgba(30, 30, 30, 0.7);
+		border-radius: 5px;
+		font-weight: var(--font-weight-500);
+		font-size: 18px;
+		color: #151515;
+	}
+	.form select {
+	    font-size: 13px !important;
+	}
+	.form input {
+	    font-size: 13px !important;
+	}
+}
+
+/*Criado / Alterado por Antonio - Fim*/
